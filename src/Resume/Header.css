@@ -1,0 +1,55 @@
+.ResumeHeader {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ResumeHeader-title {
+  order: 1;
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .ResumeHeader-title {
+    width: calc(100% * 2 / 3);
+  }
+}
+
+.ResumeHeader-contact {
+  margin: 1rem 0;
+  order: 2;
+}
+
+@media (min-width: 800px) {
+  .ResumeHeader-contact {
+    margin: 0 0 0 auto;
+  }
+}
+
+.ContactList {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.ResumeHeader-summary {
+  font-size: 1.414rem;
+  order: 3;
+  width: 100%;
+}
+
+.Title-primary {
+  background-color: #FEBF00;
+  border-radius: 5px;
+  clear: left;
+  float: left;
+  display: inline-block;
+  font-size: 1.999rem;
+  margin-top: 0;
+  padding: 0 10px;
+}
+
+@media (min-width: 800px) {
+  .Title-primary {
+    font-size: 2.827rem;
+  }
+}

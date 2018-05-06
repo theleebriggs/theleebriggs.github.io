@@ -1,0 +1,12 @@
+.Resume {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: calc(900px + 2 * 1.5625rem);
+  padding: 3.125rem 7.5%;
+  width: 100%;
+}
+
+.Resume-career {
+  width: 70%;
+}

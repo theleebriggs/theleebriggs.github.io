@@ -1,0 +1,27 @@
+.Job {
+  /*margin-bottom: 1.3rem;*/
+}
+
+.Job::after {
+  content: '';
+  background-color: #FEBF00;
+  border-radius: 50%;
+  display: block;
+  padding: 6px 0;
+  width: 12px;
+  margin: 0 auto 1.3rem;
+}
+
+.Job-link {
+  font-weight: 300;
+}
+
+.Job-meta {
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.Job-subHead {
+  font-size: 1.414rem;
+}
