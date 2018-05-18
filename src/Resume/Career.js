@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import SectionHeading from './common/SectionHeading'
+import Section from './common/Section'
+
 import Job from './Job'
 
 const Career = ({ jobs }) => {
   return (
-    <div className='Career'>
-      <SectionHeading heading='Career' primary />
+    <Section className='Career' heading='Career'>
       {
         jobs.map((j, i) => {
           return (
@@ -15,7 +15,7 @@ const Career = ({ jobs }) => {
           )
         })
       }
-    </div>
+    </Section>
   )
 }
 

@@ -1,9 +1,21 @@
 import React from 'react'
 import {format, parse} from 'date-fns'
 
-import TagList from './common/TagList'
-
 import './Job.css'
+
+const Meta = ({
+  name,
+  position,
+  startDate,
+  url
+}) => {
+  const [start] = [startDate].map((d) => format(parse(d), 'MMM, YYYY'))
+  return (
+    <p className='Job-meta'>
+      <a href={url} className='Job-link'>{name}</a> / {position} / {start}
+    </p>
+  )
+}
 
 const Job = ({
   name,
@@ -15,22 +27,10 @@ const Job = ({
   highlights,
   tags
 }) => {
-  const [start, end] = [startDate, endDate].map((d) => format(parse(d), 'MMMM, YYYY'))
   return (
     <div className='Job'>
-      <ul className='Job-meta'>
-        <li><strong>Company:</strong> <a href={url} className='Job-link'>{name}</a></li>
-        <li><strong>Position:</strong> {position}</li>
-        <li><strong>From:</strong> {start}</li>
-        <li><strong>To:</strong> {end}</li>
-      </ul>
-      <div className='Job-description'>
-        {/* <h3 className='Job-subHead'>Responsibilities</h3> */}
-        <p>
-          {summary}
-          {tags && <TagList items={tags} />}
-        </p>
-      </div>
+      <Meta endDate={endDate} name={name} position={position} startDate={startDate} url={url} />
+      <div className='Job-description' dangerouslySetInnerHTML={{__html: summary}} />
     </div>
   )
 }

@@ -1,5 +1,16 @@
+.TagList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -2px;
+}
 .Tag {
+  flex-grow: 1;
   background-color: #FEBF00;
   border-radius: 3px;
   display: inline-block;
+  margin-bottom: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+  padding: 2px;
+  text-align: center;
 }

@@ -14,7 +14,7 @@ const work = [
     url: 'https://aesop.com',
     startDate: '2017-12-01',
     endDate: '2018-05-01',
-    summary: 'Leading the front end team, develop and maintaining features across the eccommerce platform.',
+    summary: 'Leading and managing front end development; developing new and existing features across the <strong>React</strong> / <strong>Redux</strong> codebase for the eccomerce site <a href="https://aesop.com">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.',
     highlights: [],
     tags: [
       'React',
@@ -23,11 +23,11 @@ const work = [
   },
   {
     name: 'Zone Digital',
-    position: 'Front End Developer (contract)',
+    position: 'Front End Developer',
     url: 'https://www.zonedigital.com/',
     startDate: '2017-06-01',
     endDate: '2017-08-01',
-    summary: 'Building a React based admin tool to allow the backroom staff of PRS for Music to manage the submitted performances of their members.',
+    summary: '<p>Short term contract to build a <strong>React</strong> / <strong>Redux</strong> based dashboard which allowed the backroom staff of PRS for Music to manage the submitted performances of their members.</p>',
     highlights: [],
     tags: [
       'React',
@@ -40,7 +40,7 @@ const work = [
     url: 'https://gov.uk',
     startDate: '2016-12-01',
     endDate: '2017-05-01',
-    summary: 'Working in multi-disciplinary teams on both the front end of GOV.UK as well as internal content analysis / discovery tools.',
+    summary: '<p>Working in cross functional teams on the <a href="https://gov.uk">GOV.UK</a> platform as well as developing a <strong>Rails</strong> based internal content analysis / discovery tool.</p>',
     highlights: [],
     tags: [
       'Ruby',
@@ -53,7 +53,7 @@ const work = [
     url: 'http://headlondon.com/',
     startDate: '2014-05-01',
     endDate: '2016-12-01',
-    summary: 'Working in multi-disciplinary teams on both the front end of GOV.UK as well as internal content analysis / discovery tools.',
+    summary: '<p>Leading and managing front end development; building primarily <strong>AngularJS</strong> applications, projects included <a href="http://www.polecat.com/products/polecat-risklocator/">Polecat RiskLocator</a>, <a href="https://www.prsformusic.com/press/2017/new-tool-for-music-creators-to-report-performances-and-help-manage-their-rights">Setlist Hub</a> and <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildAttentionExecutiveFunction/tea-ch-2/test-of-everyday-attention-for-children-second-edition.aspx?gclid=CP3XobiT088CFRdmGwod8_EKrQ">Pearson TEA-Ch2</a>.</p>',
     highlights: [
       {
         name: 'Polecat RiskLocator',
@@ -85,11 +85,11 @@ const work = [
   },
   {
     name: 'Moving Brands',
-    position: 'Lead Front End Developer',
+    position: 'Web Developer',
     url: 'http://movingbrands.com/',
     startDate: '2012-05-01',
     endDate: '2014-05-01',
-    summary: 'Leading web development, both in an advisory and practical sense, working within a multi-disciplinary team to deliver web projects for diverse clients.',
+    summary: '<p>Leading web development, both in an advisory and practical sense, working within a multi-disciplinary team to deliver web projects for diverse clients. Hightlights included building the new front end of <a href="http://srf.ch">SRF</a> and working on an interactive music video for <a href="http://www.machinestop.com/">Duologue</a>.</p>',
     highlights: [
       {
         name: 'SRF',
@@ -116,7 +116,7 @@ const work = [
     url: 'http://cogapp.com/',
     startDate: '2010-06-01',
     endDate: '2012-05-01',
-    summary: 'Fullstack development on a number of high profile projects.',
+    summary: '<p>Full stack development on a number of high profile projects including <a href="http://www.cogapp.com/our-work/dorling-kindersley-eyewitness-travel-guides">DK Eyewitness Travel</a>, <a href="http://www.cogapp.com/our-work/tate-modern-ai-weiwei">Ai Wei Wei</a> at the Tate Modern and the <a href="http://www.moma.org/explore/collection/ge/index">MoMA German Expersionism site</a>.</p>',
     highlights: [
       {
         name: 'DK Eyewitness Travel apps',
@@ -148,4 +148,26 @@ const work = [
   }
 ]
 
-export default { basics, work }
+const skills = {
+  description: 'Using HTML, CSS and Javascript to build web products; framework / library wise my go to is React.',
+  values: [
+    'ES6',
+    'React',
+    'Redux',
+    'Webpack',
+    'NodeJS',
+    'D3.js',
+    'SASS',
+    'Git',
+  ]
+}
+
+const education = [
+  {
+    institution: 'Southampton Solent University',
+    area: 'Web Development',
+    studyType: 'First Class BSc (Hons)'
+  }
+]
+
+export default { basics, work, skills, education }

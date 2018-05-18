@@ -3,7 +3,7 @@ import cx from 'classnames'
 
 import './SectionHeading.css'
 
-const SectionHeading = ({ as: As = 'h2', className, heading, primary: isPrimary }) => {
+const SectionHeading = ({ as: As = 'h2', children, className, primary: isPrimary }) => {
   const classes = cx({
     'SectionHeading': true,
     'SectionHeading--primary': isPrimary,
@@ -11,7 +11,7 @@ const SectionHeading = ({ as: As = 'h2', className, heading, primary: isPrimary 
   })
 
   return (
-    <As className={classes}>{heading}</As>
+    <As className={classes}>{children}</As>
   )
 }
 

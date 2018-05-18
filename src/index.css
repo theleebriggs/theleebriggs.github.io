@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 1em;
+  font-size: 16px;
 }
 
 body {
@@ -16,6 +16,7 @@ body {
   line-height: 1.45;
   margin: 0;
   padding: 0;
+  -webkit-print-color-adjust: exact;
 }
 
 h1, h2, h3 {
@@ -50,4 +51,10 @@ strong {
 a {
   color: inherit;
   font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid #FEBF00;
+}
+
+a:hover {
+  border-bottom-color: inherit;
 }

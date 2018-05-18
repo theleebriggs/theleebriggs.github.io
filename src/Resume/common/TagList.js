@@ -12,13 +12,7 @@ const TagList = ({ items }) => {
 
   return (
     <span className={classes}>
-      { items &&
-        items.map(item => {
-          return (
-            <Tag>{item}</Tag>
-          )
-        })
-      }
+      { items && items.map((item, i) => <Tag key={i}>{item}</Tag>) }
     </span>
   )
 }
