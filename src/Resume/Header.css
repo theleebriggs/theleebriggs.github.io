@@ -3,6 +3,7 @@
 }
 
 .ResumeHeader-title {
+  margin-bottom: 1.3rem;
   order: 1;
   width: 100%;
 }
@@ -22,7 +23,6 @@
 .ResumeHeader-summary {
   font-size: 1.414rem;
   order: 3;
-  /*max-width: 550px;*/
   width: 100%;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .Title-primary {
-  background-color: #FEBF00;
+  background-color: #FBFF00;
   border-radius: 5px;
   clear: left;
   float: left;

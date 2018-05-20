@@ -1,16 +1,24 @@
 .Resume {
-  /*display: flex;
-  flex-wrap: wrap;*/
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 50px;
-  width: 100%;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 3fr 1fr;
   grid-template-areas:
-        "header header"
-        "main sidebar";
+        "header"
+        "main"
+        "sidebar";
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 35px 20px;
+  width: 100%;
+}
+
+@media (min-width: 767px) {
+  .Resume {
+    grid-template-areas:
+          "header header"
+          "main sidebar";
+    grid-template-columns: 3fr 1fr;
+    padding: 50px 35px;
+  }
 }
 
 .Resume-header {
@@ -19,8 +27,6 @@
 
 .Resume-career {
   grid-area: main;
-  /*margin-right: 5%;*/
-  /*width: 65%;*/
 }
 
 .Resume-extra {

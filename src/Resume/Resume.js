@@ -7,9 +7,10 @@ import Header from './Header'
 import Career from './Career'
 import Skills from './Skills'
 import Education from './Education'
+import Interests from './Interests'
 
 const Resume = () => {
-  const { basics, work, skills, education } = resumeData
+  const { basics, interests, work, skills, education } = resumeData
 
   return (
     <div className='Resume'>
@@ -22,6 +23,7 @@ const Resume = () => {
       <div className='Resume-extra'>
         <Skills {...skills} />
         <Education education={education} />
+        <Interests interests={interests} />
       </div>
     </div>
   )

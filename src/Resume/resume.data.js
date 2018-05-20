@@ -170,4 +170,6 @@ const education = [
   }
 ]
 
-export default { basics, work, skills, education }
+const interests = '<p>When I\'m not developing I enjoy table tennis, actual tennis and rewatching <a href="http://www.imdb.com/title/tt1073507/">Party Down</a>.</p>'
+
+export default { basics, work, interests, skills, education }
