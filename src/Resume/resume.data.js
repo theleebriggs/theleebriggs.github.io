@@ -2,8 +2,8 @@ const basics = {
   name: 'Lee Briggs',
   label: 'Front End Developer',
   email: 'coffeegunshow@gmail.com',
-  phone: '0412 250 472',
-  url: 'http://leebriggs.me',
+  phone: '0416 250 472',
+  url: 'https://theleebriggs.github.io',
   summary: '<p>Front end developer based in Melbourne, previously at <a href="https://aesop.com/">Aesop</a> and in London at <a href="https://gov.uk">Government Digital Service</a>. I work with a broad technology stack and use the best tools for the job, whether that means the latest library or plain old JS. Past projects include work for <strong>MoMa</strong>, <strong>Tate Modern</strong> and <strong>Tesco</strong>.</p>'
 }
 
@@ -116,7 +116,7 @@ const work = [
     url: 'http://cogapp.com/',
     startDate: '2010-06-01',
     endDate: '2012-05-01',
-    summary: '<p>Full stack development on a number of high profile projects including <a href="http://www.cogapp.com/our-work/dorling-kindersley-eyewitness-travel-guides">DK Eyewitness Travel</a>, <a href="http://www.cogapp.com/our-work/tate-modern-ai-weiwei">Ai Wei Wei</a> at the Tate Modern and the <a href="http://www.moma.org/explore/collection/ge/index">MoMA German Expersionism site</a>.</p>',
+    summary: '<p>Full stack development on a number of high profile projects including <a href="http://www.cogapp.com/our-work/dorling-kindersley-eyewitness-travel-guides">DK Eyewitness Travel</a>, <a href="http://www.cogapp.com/our-work/tate-modern-ai-weiwei">Ai Wei Wei</a> at the Tate Modern and the <a href="http://www.moma.org/explore/collection/ge/index">MoMA German Expressionism site</a>.</p>',
     highlights: [
       {
         name: 'DK Eyewitness Travel apps',
