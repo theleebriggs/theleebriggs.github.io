@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   margin: 0 -2px;
 }
+
 .Tag {
   flex-grow: 1;
   background-color: #FBFF00;
@@ -11,6 +12,7 @@
   margin-bottom: 4px;
   margin-right: 2px;
   margin-left: 2px;
+  min-width: 50px;
   padding: 2px;
   text-align: center;
 }

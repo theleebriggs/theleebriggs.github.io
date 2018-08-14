@@ -21,6 +21,13 @@
   }
 }
 
+@media print {
+  .Resume {
+    min-width: 100%;
+    padding: 0;
+  }
+}
+
 .Resume-header {
   grid-area: header;
 }
@@ -31,4 +38,20 @@
 
 .Resume-extra {
   grid-area: sidebar;
+}
+
+@media (min-width: 500px) {
+  .Resume-extra {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "one";
+    grid-gap: 1rem;
+    grid-template-areas: "one two three";
+  }
+}
+
+@media (min-width: 768px) {
+  .Resume-extra {
+    display: block;
+  }
 }

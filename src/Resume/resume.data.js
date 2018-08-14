@@ -14,7 +14,7 @@ const work = [
     url: 'https://aesop.com',
     startDate: '2017-12-01',
     endDate: '2018-05-01',
-    summary: 'Leading and managing front end development; developing new and existing features across the <strong>React</strong> / <strong>Redux</strong> codebase for the eccomerce site <a href="https://aesop.com">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.',
+    summary: '<p>Leading and managing front end development; developing new and existing features across the <strong>React</strong> / <strong>Redux</strong> codebase for the eccomerce site <a href="https://aesop.com">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.</p>',
     highlights: [],
     tags: [
       'React',
@@ -58,7 +58,7 @@ const work = [
       {
         name: 'Polecat RiskLocator',
         url: 'http://www.polecat.com/products/polecat-risklocator/',
-        summary: 'Risk analysis product using data driven visualisations to help businesses identify risk around the globe.',
+        summary: 'Risk analysis product using data driven visualizations to help businesses identify risk around the globe.',
         tags: [
           'D3',
           'Angular'
@@ -89,7 +89,7 @@ const work = [
     url: 'http://movingbrands.com/',
     startDate: '2012-05-01',
     endDate: '2014-05-01',
-    summary: '<p>Leading web development, both in an advisory and practical sense, working within a multi-disciplinary team to deliver web projects for diverse clients. Hightlights included building the new front end of <a href="http://srf.ch">SRF</a> and working on an interactive music video for <a href="http://www.machinestop.com/">Duologue</a>.</p>',
+    summary: '<p>Leading web development, both in an advisory and practical sense, working within a multi-disciplinary team to deliver web projects for diverse clients. Highlights included building the new front end of <a href="http://srf.ch">SRF</a> and working on an interactive music video for <a href="http://www.machinestop.com/">Duologue</a>.</p>',
     highlights: [
       {
         name: 'SRF',
@@ -154,11 +154,12 @@ const skills = {
     'ES6',
     'React',
     'Redux',
+    'Vue',
+    'Node',
+    'D3',
     'Webpack',
-    'NodeJS',
-    'D3.js',
     'SASS',
-    'Git',
+    'Git'
   ]
 }
 
