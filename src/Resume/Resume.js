@@ -18,8 +18,8 @@ const Resume = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Lee Briggs | Resume</title>
-        <meta name = "description"
-        value = "Front end developer based in Melbourne, previously at Aesop and in London at Government Digital Service." />
+        <meta name="description"
+        value="Front end developer based in Melbourne, previously at Aesop and in London at Government Digital Service." />
       </Helmet>
       <div className='Resume-header'>
         <Header {...basics} />
