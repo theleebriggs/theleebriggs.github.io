@@ -4,7 +4,7 @@ const basics = {
   email: 'coffeegunshow@gmail.com',
   phone: '0416 250 472',
   url: 'https://theleebriggs.github.io',
-  summary: '<p>Front end developer based in Melbourne, previously at <a href="https://aesop.com/">Aesop</a> and in London at <a href="https://gov.uk">Government Digital Service</a>. I work with a broad technology stack and use the best tools for the job, whether that means the latest library or plain old JS. Past projects include work for <strong>MoMa</strong>, <strong>Tate Modern</strong> and <strong>Tesco</strong>.</p>'
+  summary: '<p>Front end developer based in Melbourne, previously at <a href="https://aesop.com/">Aesop</a> and in London at <a href="https://gov.uk">Government Digital Service</a>. I work with a broad technology stack and use the best tools for the job, whether that means the latest fashionable framework or plain old Javascript. Past projects include work for <strong>MoMa</strong>, <strong>Tate Modern</strong> and <strong>Tesco</strong>.</p>'
 }
 
 const work = [
@@ -149,7 +149,7 @@ const work = [
 ]
 
 const skills = {
-  description: 'Using HTML, CSS and Javascript to build web products; framework / library wise my go to is React.',
+  description: 'Using HTML, CSS and Javascript to build web products; framework / library wise I\'m experienced with React and Vue.',
   values: [
     'ES6',
     'React',
