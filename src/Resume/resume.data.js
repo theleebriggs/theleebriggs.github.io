@@ -22,6 +22,19 @@ const work = [
     ]
   },
   {
+    name: 'Today',
+    position: 'Front End Developer ',
+    url: 'https://today.design',
+    startDate: '2018-05-01',
+    endDate: '',
+    summary: '<p>Short contract building <a href="https://www.myvictoria.vic.gov.au/">My Victoria</a>, a Vue application showing geographically based statistics and mapping data for the state of Victoria</p>',
+    highlights: [],
+    tags: [
+      'Vue',
+      'Nuxt'
+    ]
+  },
+  {
     name: 'Aesop',
     position: 'Lead Front End Developer',
     url: 'https://aesop.com',
