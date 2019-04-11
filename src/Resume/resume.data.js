@@ -9,6 +9,19 @@ const basics = {
 
 const work = [
   {
+    name: 'Portable',
+    position: 'Senior Developer | Creative Technologist',
+    url: 'https://portable.com.au',
+    startDate: '2018-09-01',
+    endDate: '2018-05-01',
+    summary: '<p>Working mainly on <strong>React</strong> + <strong>Redux</strong> applications with <strong>AWS</strong> backends. ALICIA WHAT DO I WRITE HERE???</p>',
+    highlights: [],
+    tags: [
+      'React',
+      'Redux'
+    ]
+  },
+  {
     name: 'Aesop',
     position: 'Lead Front End Developer',
     url: 'https://aesop.com',
