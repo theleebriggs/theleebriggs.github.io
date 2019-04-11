@@ -14,7 +14,7 @@ const work = [
     url: 'https://portable.com.au',
     startDate: '2018-09-01',
     endDate: '2018-05-01',
-    summary: '<p>Working mainly on <strong>React</strong> + <strong>Redux</strong> applications with <strong>AWS</strong> backends. ALICIA WHAT DO I WRITE HERE???</p>',
+    summary: '<p>Working mainly on <strong>React</strong> + <strong>Redux</strong> applications with <strong>AWS</strong> backends. WHAT DO I WRITE HERE???</p>',
     highlights: [],
     tags: [
       'React',
