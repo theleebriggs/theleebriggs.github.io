@@ -24,7 +24,6 @@ const Job = ({
   startDate,
   endDate,
   summary,
-  highlights,
   tags
 }) => {
   return (

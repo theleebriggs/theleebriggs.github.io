@@ -9,11 +9,7 @@ const Career = ({ jobs }) => {
   return (
     <Section className='Career' heading='Career'>
       {
-        jobs.map((j, i) => {
-          return (
-            <Job key={i} {...j} />
-          )
-        })
+        jobs.map((j, i) => <Job key={i} {...j} />)
       }
     </Section>
   )
