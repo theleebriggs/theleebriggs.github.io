@@ -5,7 +5,7 @@ const basics = {
   phone: "0416 250 472",
   url: "https://theleebriggs.github.io",
   summary:
-    '<p>Front end developer based in Melbourne, previously at <a href="https://aesop.com/">Aesop</a> and in London at <a href="https://gov.uk">Government Digital Service</a>. I work with a broad technology stack and use the best tools for the job,  currently Front End Lead at <a href="https://portable.com.au">Portable</a>.',
+    '<p>Front end developer based in Melbourne, previously at <a href="https://aesop.com/">Aesop</a> and in London at <a href="https://gov.uk">Government Digital Service</a>. I work with a broad technology stack and use the best tools for the job. Currently Front End Lead at <a href="https://portable.com.au">Portable</a>.',
 };
 
 const work = [
@@ -15,7 +15,7 @@ const work = [
     url: 'https://portable.com.au',
     startDate: '2018-09-01',
     endDate: '01',
-    summary: '<p>Building <strong>React</strong> applications with <strong>Node</strong> backends.</p>',
+    summary: '<p>Mentoring. Strategy/Growth. Headless CMS - Contentful, Wordpress. Building <strong>React</strong> applications with <strong>Node</strong> backends.</p>',
     tags: [
       'React',
       'NextJS',
@@ -30,7 +30,7 @@ const work = [
     url: 'https://today.design',
     startDate: '2018-05-01',
     endDate: '',
-    summary: '<p>Short contract building <a href="https://www.myvictoria.vic.gov.au/">My Victoria</a>, a Vue application showing geographically based statistics and mapping data for the state of Victoria</p>',
+    summary: '<p>Short contract building <a href="https://www.myvictoria.vic.gov.au/">My Victoria</a>, a <strong>Vue/Nuxt</strong> application showing geographically based statistics and mapping data for the state of Victoria</p>',
     tags: [
       'Vue',
       'Nuxt'
@@ -41,7 +41,7 @@ const work = [
     position: 'Lead Front End Developer',
     url: 'https://aesop.com',
     startDate: '2017-12-01',
-    summary: '<p>Leading and managing front end development; developing new and existing features across the <strong>React</strong> / <strong>Redux</strong> codebase for the eccomerce site <a href="https://aesop.com">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.</p>',
+    summary: '<p>Developing across the <strong>React/Redux</strong> codebase for the eccomerce site <a href="https://aesop.com">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.</p>',
     tags: [
       'React',
       'Redux'
@@ -65,7 +65,7 @@ const work = [
     url: 'http://headlondon.com/',
     startDate: '2014-05-01',
     endDate: '2016-12-01',
-    summary: '<p>Leading and managing front end development; building primarily <strong>AngularJS</strong> applications, projects included <a href="http://www.polecat.com/products/polecat-risklocator/">Polecat RiskLocator</a>, <a href="https://www.prsformusic.com/press/2017/new-tool-for-music-creators-to-report-performances-and-help-manage-their-rights">Setlist Hub</a> and <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildAttentionExecutiveFunction/tea-ch-2/test-of-everyday-attention-for-children-second-edition.aspx?gclid=CP3XobiT088CFRdmGwod8_EKrQ">Pearson TEA-Ch2</a>.</p>',
+    summary: '<p>Leading and managing front end development; building primarily <strong>AngularJS</strong> applications, projects included <a href="https://www.prsformusic.com/press/2017/new-tool-for-music-creators-to-report-performances-and-help-manage-their-rights">Setlist Hub</a> and <a href="http://www.pearsonclinical.co.uk/Psychology/ChildCognitionNeuropsychologyandLanguage/ChildAttentionExecutiveFunction/tea-ch-2/test-of-everyday-attention-for-children-second-edition.aspx?gclid=CP3XobiT088CFRdmGwod8_EKrQ">Pearson TEA-Ch2</a>.</p>',
   },
   {
     name: 'Moving Brands',
@@ -73,7 +73,7 @@ const work = [
     url: 'http://movingbrands.com/',
     startDate: '2012-05-01',
     endDate: '2014-05-01',
-    summary: '<p>Leading web development, both in an advisory and practical sense, working within a multi-disciplinary team to deliver web projects for diverse clients. Highlights included building the new front end of <a href="http://srf.ch">SRF</a> and working on an interactive music video for <a href="http://www.machinestop.com/">Duologue</a>.</p>',
+    summary: '<p>Leading web development, working within a multi-disciplinary team to deliver web projects for diverse clients. Highlights included building the new front end of <a href="http://srf.ch">SRF</a> and working on an interactive music video for <a href="http://www.machinestop.com/">Duologue</a>.</p>',
   },
   {
     name: 'Cogapp',
