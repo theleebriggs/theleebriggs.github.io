@@ -7,28 +7,28 @@ const Meta = ({
   name,
   position,
   startDate,
+  endDate = Date.now(),
+  contract = false,
   url
 }) => {
-  const [start] = [startDate].map((d) => format(parse(d), 'MMM, YYYY'))
+  const [start, end] = [startDate, endDate].map((d) => format(parse(d), 'MMM YYYY'))
   return (
     <p className='Job-meta'>
-      <a href={url} className='Job-link'>{name}</a> / {position} / {start}
+      <a href={url} className='Job-link'>{name}</a> | {position}
+      <span className="Job-meta__time">
+        {start} - {end} {contract && `(contract)`}
+      </span>
     </p>
   )
 }
 
 const Job = ({
-  name,
-  position,
-  url,
-  startDate,
-  endDate,
   summary,
-  tags
+  ...props
 }) => {
   return (
     <div className='Job'>
-      <Meta endDate={endDate} name={name} position={position} startDate={startDate} url={url} />
+      <Meta {...props} />
       <div className='Job-description' dangerouslySetInnerHTML={{__html: summary}} />
     </div>
   )

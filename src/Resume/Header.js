@@ -14,15 +14,18 @@ const Title = ({ primary, secondary }) => {
 
 const Contact = ({
   email,
+  github,
   phone
 }) => {
   const mailLink = `mailto:${email}`
+  const githubLink = `https://github.com/${github}`;
 
   return (
     <div className='ResumeHeader-contact'>
       <ul className='ContactList'>
         <li><strong>Phone:</strong> {phone}</li>
         <li><strong>Email:</strong> <a href={mailLink}>{email}</a></li>
+        <li><strong>Github:</strong> <a href={githubLink} target="_blank" rel="noopener noreferrer">@{github}</a></li>
       </ul>
     </div>
   )
@@ -39,13 +42,14 @@ const Header = ({
   label,
   email,
   phone,
+  github,
   summary
 }) => {
   return (
     <div className='ResumeHeader'>
       <Title primary={name} secondary={label} />
       <Summary content={summary} />
-      <Contact email={email} phone={phone} />
+      <Contact email={email} phone={phone} github={github} />
     </div>
   )
 }
