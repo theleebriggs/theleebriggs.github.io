@@ -28,6 +28,11 @@
   }
 }
 
+@page {
+  size: auto;
+  margin: 15mm 10mm 10mm 10mm;
+}
+
 .Resume-header {
   grid-area: header;
 }
@@ -46,7 +51,7 @@
     grid-auto-columns: 1fr;
     grid-template-areas: "one";
     grid-gap: 1rem;
-    grid-template-areas: "one two three";
+    grid-template-areas: "one two";
   }
 }
 
