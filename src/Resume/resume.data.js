@@ -1,7 +1,7 @@
 const basics = {
   name: "Lee Briggs",
   label: "Front End Developer",
-  email: "coffeegunshow@gmail.com",
+  email: "theleebriggs@gmail.com",
   phone: "0416 250 472",
   url: "https://theleebriggs.github.io",
   github: 'theleebriggs',
