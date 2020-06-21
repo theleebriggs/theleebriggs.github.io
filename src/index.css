@@ -64,3 +64,9 @@ a {
 a:hover {
   border-bottom-color: inherit;
 }
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
