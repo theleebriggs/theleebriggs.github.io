@@ -6,5 +6,15 @@
   background-color: #FBFF00;
   border-radius: 5px;
   margin-bottom: 1.5rem;
-  padding: 3px 10px;
+  padding: 3px 20px;
+  width: calc(100% + 40px);
+  transform: translateX(-20px);
+}
+
+@media (min-width: 500px) {
+  .SectionHeading--primary {
+    padding: 3px 10px;
+    width: 100%;
+    transform: none;
+  }
 }
