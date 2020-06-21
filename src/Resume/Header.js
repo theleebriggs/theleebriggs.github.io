@@ -23,7 +23,7 @@ const Contact = ({
   return (
     <div className='ResumeHeader-contact'>
       <ul className='ContactList'>
-        <li class="print-only"><strong>Phone:</strong> {phone}</li>
+        <li><strong>Phone:</strong> {phone}</li>
         <li><strong>Email:</strong> <a href={mailLink}>{email}</a></li>
         <li><strong>Github:</strong> <a href={githubLink} target="_blank" rel="noopener noreferrer">@{github}</a></li>
       </ul>
