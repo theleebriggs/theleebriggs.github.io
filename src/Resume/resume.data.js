@@ -15,7 +15,7 @@ const work = [
     position: 'Front End Lead',
     url: 'https://portable.com.au',
     startDate: '2018-09-01',
-    summary: '<p>Part of the tech leadership team, defining the wider tech strategy across tools, stack and growth areas; providing mentorship to the team; scoping projects and working collaboratively with clients. Building products with <strong>React/NextJS</strong>, <strong>Styled Components</strong>, headless CMSs (Contentful, Wordpress) and <strong>AWS</strong> infrastructure.</p>',
+    summary: '<p>Part of the tech leadership team, defining the wider tech strategy across tools, stack and growth areas; providing mentorship to the team; scoping projects and working collaboratively with clients.</p><p>Full stack development of digital products using <strong>React</strong>, <strong>Styled Components</strong>, Node (<strong>NestJS</strong>, <strong>Serverless</strong>), hosted on <strong>AWS</strong> infrastructure.</p>',
     tags: [
       'React',
       'NextJS',
@@ -91,13 +91,13 @@ const work = [
 const skills = {
   description: 'Using HTML, CSS and Javascript to build web products. Currently enjoying NextJS with Styled Components.',
   values: [
-    'ES6',
     'React',
     'Node',
-    'NextJS',
     'Webpack',
+    'NextJS',
     'Styled Components',
     'Git',
+    'Serverless',
     'TypeScript',
     'Cypress'
   ]
