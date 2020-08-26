@@ -7,11 +7,13 @@ const Meta = ({
   name,
   position,
   startDate,
-  endDate = Date.now(),
+  endDate,
   contract = false,
   url
 }) => {
-  const [start, end] = [startDate, endDate].map((d) => format(parse(d), 'MMM YYYY'))
+  const end = endDate ? format(parse(endDate), 'MMM YYYY') : 'Present';
+  const start = format(parse(startDate), 'MMM YYYY');
+
   return (
     <p className='Job-meta'>
       <a href={url} className='Job-link'>{name}</a> | {position}
