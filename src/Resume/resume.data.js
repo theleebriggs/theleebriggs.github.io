@@ -1,21 +1,21 @@
 const basics = {
   name: "Lee Briggs",
-  label: "Front End Developer",
+  label: "Full Stack Developer",
   email: "theleebriggs@gmail.com",
   phone: "0416 250 472",
   url: "https://theleebriggs.github.io",
   github: 'theleebriggs',
   summary:
-    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia and the UK. The last few years have seen me building full stack Javascript applications with  React front ends; I\'m passionate about design systems and bridging the gap between design and development.</p>',
+    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia and the UK. The last few years have seen me building full stack Javascript applications; I\'m passionate about design systems and bridging the gap between design and development.</p><p>As a tech lead, I believe in giving teams the tools they need to deliver great work; whether that means writing some code for process automation, setting out what best practice looks like for us, or mentoring the team through shared learning, I\'m there to unblock and help the team grow.</p>',
 };
 
 const work = [
   {
     name: 'Portable',
-    position: 'Front End Lead',
+    position: 'Tech Lead',
     url: 'https://portable.com.au',
     startDate: '2018-09-01',
-    summary: '<p>Part of the tech leadership team, defining the wider tech strategy across tools, stack and growth areas; providing mentorship to the team; scoping projects and working collaboratively with clients.</p><p>Full stack development of digital products using <strong>React</strong>, <strong>Styled Components</strong>, Node (<strong>NestJS</strong>, <strong>Serverless</strong>), hosted on <strong>AWS</strong> infrastructure.</p>',
+    summary: '<p>Part of the tech leadership team, defining the wider tech strategy across tools, stack and growth areas; providing mentorship to the team; scoping projects and working collaboratively with clients.</p><p>Full stack development of digital products using <strong>React</strong>, <strong>Styled Components</strong>, Node (<strong>NestJS</strong>, <strong>Serverless</strong>), with <strong>Terraform</strong> to build on <strong>AWS</strong> infrastructure.</p>',
     tags: [
       'React',
       'NextJS',
@@ -43,7 +43,7 @@ const work = [
     url: 'https://aesop.com',
     startDate: '2017-12-01',
     endDate: '2018-05-01',
-    summary: '<p>Developing across the <strong>React + Redux</strong> codebase for the eccomerce site <a href="https://aesop.com" target="_blank" rel="noopener noreferrer">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.</p>',
+    summary: '<p>Leading and managing work across the front end codebase for the eccomerce site <a href="https://aesop.com" target="_blank" rel="noopener noreferrer">aesop.com</a>. Working with partner agencies across the globe to handle integration and deployment cycles, as well as internal UX / design teams on campaign and platform improvements.</p>',
     tags: [
       'React',
       'Redux'
