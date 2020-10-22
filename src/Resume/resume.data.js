@@ -26,12 +26,12 @@ const work = [
   },
   {
     name: 'Today',
-    position: 'Front End Developer ',
+    position: 'Full Stack Developer ',
     url: 'https://today.design',
     contract: true,
     startDate: '2018-05-01',
     endDate: '2018-08-01',
-    summary: '<p>Building <a href="https://www.myvictoria.vic.gov.au/" target="_blank" rel="noopener noreferrer">My Victoria</a>, a <strong>Vue/Nuxt</strong> application combining geospatial and census data into a searchable platform for the state of Victoria.</p>',
+    summary: '<p>Building <a href="https://www.myvictoria.vic.gov.au/" target="_blank" rel="noopener noreferrer">My Victoria</a>, a <strong>Vue + Nuxt</strong> application combining geospatial and census data into a searchable platform for the state of Victoria.</p>',
     tags: [
       'Vue',
       'Nuxt'
@@ -51,12 +51,12 @@ const work = [
   },
   {
     name: 'Government Digital Service',
-    position: 'Front End Developer',
+    position: 'Full Stack Developer',
     url: 'https://gov.uk',
     startDate: '2016-12-01',
     endDate: '2017-05-01',
     contract: true,
-    summary: '<p>Working in cross functional teams on the <a href="https://gov.uk" rel="noopener noreferrer">GOV.UK</a> platform as well as developing a <strong>Rails</strong> based internal content analysis and discovery tool.</p>',
+    summary: '<p>Working in cross functional teams on the <a href="https://gov.uk" rel="noopener noreferrer">GOV.UK</a> platform as well as developing a <strong>Ruby on Rails</strong> based internal content analysis and discovery tool.</p>',
     tags: [
       'Ruby',
       'Ruby on Rails'
