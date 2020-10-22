@@ -99,7 +99,8 @@ const skills = {
     'Git',
     'Serverless',
     'TypeScript',
-    'Cypress'
+    'Cypress',
+    'AWS',
   ]
 }
 
