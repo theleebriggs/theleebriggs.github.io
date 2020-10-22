@@ -6,7 +6,7 @@ const basics = {
   url: "https://theleebriggs.github.io",
   github: 'theleebriggs',
   summary:
-    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia and the UK. The last few years have seen me building full stack Javascript applications; I\'m passionate about design systems and bridging the gap between design and development.</p><p>As a tech lead, I believe in giving teams the tools they need to deliver great work; whether that means writing some code for process automation, setting out what best practice looks like for us, or mentoring the team through shared learning, I\'m there to unblock and help the team grow.</p>',
+    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia and the UK. The last few years have seen me building full stack Javascript applications; I\'m passionate about design systems and bridging the gap between design and development.</p><p>As a tech lead, I believe in giving teams the tools they need to deliver great work; whether that means writing code for process automation, setting out what best practice looks like, or mentoring the team through shared learning. My role is to unblock and help the team grow.</p>',
 };
 
 const work = [
