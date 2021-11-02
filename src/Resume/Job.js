@@ -16,7 +16,7 @@ const Meta = ({
 
   return (
     <p className='Job-meta'>
-      <a href={url} className='Job-link'>{name}</a> | {position}
+      <a href={url} className='Job-link' target="_blank" rel="noopener noreferrer">{name}</a> | {position}
       <span className="Job-meta__time">
         {start} - {end} {contract && `(contract)`}
       </span>
