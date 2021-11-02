@@ -2,19 +2,33 @@ const basics = {
   name: "Lee Briggs",
   label: "Full Stack Developer",
   email: "theleebriggs@gmail.com",
-  phone: "0416 250 472",
+  phone: "021 088 40384",
   url: "https://theleebriggs.github.io",
   github: 'theleebriggs',
   summary:
-    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia and the UK. The last few years have seen me building full stack Javascript applications; I\'m passionate about design systems and bridging the gap between design and development.</p><p>As a tech lead, I believe in giving teams the tools they need to deliver great work; whether that means writing code for process automation, setting out what best practice looks like, or mentoring the team through shared learning. My role is to unblock and help the team grow.</p>',
+    '<p>I have been building for the web for over 10 years, in lead roles in both agencies and in-house, in Australia, New Zealand and the UK. The last few years have seen me building full stack Javascript applications; I\'m passionate about design systems and bridging the gap between design and development.</p><p>As a tech lead, I believe in giving teams the tools they need to deliver great work; whether that means writing code for process automation, setting out what best practice looks like, or mentoring the team through shared learning. My role is to unblock and help the team grow.</p>',
 };
 
 const work = [
+  {
+    name: 'SwipedOn',
+    position: 'Tech Lead',
+    url: 'https://swipedon.com',
+    startDate: '2021-04-01',
+    summary: '<p>Leading a small team of developers to build full stack features for an established visitor management software product. Day to day responsibilties include code reviews, pairing, issue triage and prioritisation.</p>',
+    tags: [
+      'Vue',
+      'Serverless',
+      'TypeScript',
+      'Laravel',
+    ]
+  },
   {
     name: 'Portable',
     position: 'Tech Lead',
     url: 'https://portable.com.au',
     startDate: '2018-09-01',
+    endDate: '2021-03-01',
     summary: '<p>Part of the tech leadership team, defining the wider tech strategy across tools, stack and growth areas; providing mentorship to the team; scoping projects and working collaboratively with clients.</p><p>Full stack development of digital products using <strong>React</strong>, <strong>Styled Components</strong>, Node (<strong>NestJS</strong>, <strong>Serverless</strong>), with <strong>Terraform</strong> to build on <strong>AWS</strong> infrastructure.</p>',
     tags: [
       'React',
