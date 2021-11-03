@@ -15,7 +15,7 @@ const work = [
     position: 'Tech Lead',
     url: 'https://swipedon.com',
     startDate: '2021-04-01',
-    summary: '<p>Leading a small team of developers to build full stack features for an established visitor management software product. Day to day responsibilties include code reviews, pairing, issue triage and prioritisation.</p>',
+    summary: '<p>Leading a small team of developers to build full stack features for an established visitor management software product. Day to day responsibilties include feature development, code reviews, pairing, issue triage and prioritisation.</p><p>Working with a predominantly Javascript flavoured stack - <strong>Vue</strong> apps alongside <strong>Serverless</strong> on <strong>AWS</strong> plus a sprinkling of legacy PHP.',
     tags: [
       'Vue',
       'Serverless',
@@ -103,17 +103,17 @@ const work = [
 ]
 
 const skills = {
-  description: 'Using HTML, CSS and Javascript to build web products. Currently enjoying NextJS with Styled Components.',
+  description: 'Using HTML, CSS and Javascript to build web products. Currently enjoying NextJS with Chakra UI.',
   values: [
     'React',
+    'Vue',
     'Node',
-    'Webpack',
     'NextJS',
-    'Styled Components',
-    'Git',
-    'Serverless',
+    'Emotion',
     'TypeScript',
     'Cypress',
+    'Git',
+    'Serverless',
     'AWS',
   ]
 }
